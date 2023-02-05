@@ -1,0 +1,5 @@
+nitrogen --restore
+volumeicon &
+xcompmgr &
+tint2 &
+# plank &
