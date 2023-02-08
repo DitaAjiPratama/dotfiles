@@ -1,5 +1,5 @@
 nitrogen --restore
 volumeicon &
 xcompmgr &
-tint2 &
+tint2 -c ~/.config/tint2/aji.tint2rc &
 # plank &
