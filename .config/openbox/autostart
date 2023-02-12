@@ -2,4 +2,6 @@ nitrogen --restore
 volumeicon &
 xcompmgr &
 tint2 -c ~/.config/tint2/aji.tint2rc &
+# To disable the beep for all X applications
+xset b off
 # plank &
