@@ -1,7 +1,10 @@
-nitrogen --restore
+nitrogen --restore &
 volumeicon &
+# pidgin &
 xcompmgr &
 tint2 -c ~/.config/tint2/aji.tint2rc &
 # To disable the beep for all X applications
-xset b off
+xset b off &
+xscreensaver -no-splash &
+# Unused app
 # plank &

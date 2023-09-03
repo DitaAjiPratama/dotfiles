@@ -373,7 +373,17 @@
     </keybind>
     <keybind key="W-p">
       <action name="Execute">
-        <command>rofi -modi drun -show drun -show-icons -theme Arc-Dark.rasi -columns 2 -lines 10 -window-thumbnail</command>
+        <command>rofi -modi drun,power:~/.config/rofi/power-menu -show drun -show-icons -theme Arc-Dark.rasi -columns 2 -lines 10 -window-thumbnail -font "Open Sans 18" -opacity -width 80 -sidebar-mode</command>
+      </action>
+    </keybind>
+    <keybind key="W-o">
+      <action name="Execute">
+        <command>rofi -modi drun,power:~/.config/rofi/power-menu -show power -show-icons -theme Arc-Dark.rasi -columns 2 -lines 10 -window-thumbnail -font "Open Sans 18" -opacity -width 80 -sidebar-mode</command>
+      </action>
+    </keybind>
+    <keybind key="W-l">
+      <action name="Execute">
+        <command>xscreensaver-command -lock</command>
       </action>
     </keybind>
     <keybind key="W-k">
@@ -386,6 +396,11 @@
         <command>thunar</command>
       </action>
     </keybind>
+    <keybind key="W-i">
+      <action name="Execute">
+        <command>icecat</command>
+      </action>
+    </keybind>
     <keybind key="W-comma">
       <action name="Execute">
         <command>pactl set-sink-volume @DEFAULT_SINK@ -5%</command>
@@ -396,11 +411,13 @@
         <command>pactl set-sink-volume @DEFAULT_SINK@ +5%</command>
       </action>
     </keybind>
+    <!--
     <keybind key="A-F2">
       <action name="Execute">
         <command>synapse</command>
       </action>
     </keybind>
+    -->
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
