@@ -311,6 +311,16 @@
         </finalactions>
       </action>
     </keybind>
+    <keybind key="W-S-Left">
+      <action name="MoveResizeTo">
+        <monitor>1</monitor>
+      </action>
+    </keybind>
+    <keybind key="W-S-Right">
+      <action name="MoveResizeTo">
+        <monitor>2</monitor>
+      </action>
+    </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
     <!--
     <keybind key="W-Right">
