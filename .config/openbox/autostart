@@ -1,3 +1,4 @@
+lxpolkit &
 nitrogen --restore &
 volumeicon &
 xcompmgr &
